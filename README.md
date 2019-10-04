@@ -4,8 +4,9 @@ I was always interested in Bitcoin as an investment and its underlying technolog
 
 **Bitcoin price is driven by two main factors:**
 
-Fixed Supply/Scarcity -- 
-Social Acceptance/Confidence --
+Verifiable Fixed Supply/Scarcity -- Programmed Fixed Supplied and Blockchain technology to verify transactions.
+
+Social Acceptance/Confidence -- Measured by Sentiment and Topics over time.
 
 ## Business Problem/Motivation
 
