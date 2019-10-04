@@ -2,28 +2,32 @@
 
 I was always interested in Bitcoin as an investment and its underlying technology, blockchain. From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! Bitcoin is very different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
 
+**Bitcoin price is driven by two main factors:**
+
+Fixed Supply/Scarcity -- 
+Social Acceptance/Confidence --
+
 ## Business Problem/Motivation
-This is a dual-sided problem that many New Yorkers and visitors to New York have. So I created a linear regression model that predicts the price of Manhattan Airbnb rentals and show which features of the apartment influences the price. So that hosts can maximize their return on investment on their idle space and guests find the cheapest accommodations given their needs.
+
 
 ## Methodology
 **1. Data Collection**
-I utilized Beautiful Soup and Selenium to extract Airbnb Data from Airbnb.com. The listing data included the target, price and features such as number of guests that can be accomodated, number of beds, number of bathrooms, review rating, and neighboorhood of the listing.
+
 
 **2. Data Cleaning**
-I conducted data cleaning of the listing data. The raw data from the listings was pretty messy, I utilized ReGex and other text cleaning techniques to standardize and clean data. After cleaning data I had to remove outliers and set proper bounds on what listings I wanted to look at. Steps I took included removing expensive listings and listings with 0 reviews. I wanted to focus on 'moderately priced' Airbnb rentals that have reviews. 
+
 
 **3. Exploratory Data Analysis**
-I created plots and visualizations to find relationships between features, between the features and plot. Details and charts found below. These relationships between features helped me create interaction terms between features such as total number of stars (number of review * average number of stars).
+
 
 **4. Model Training and Validation**
-After conducting EDA, I split of data to create a train and test set and created a base linear regression model. I ran different regressions, cross validated them with different cuts of the data, and compared the models against each other.  
+
 
 **5. Testing**
-I tested the best performing model: Linear Regression with Lasso Regularization
+
 
 ## Exploratory Data Analysis
 
-**Price Per Night = Accomodations + Location + Listing Type + Reviews**
 
 Removing Outliers:
 
