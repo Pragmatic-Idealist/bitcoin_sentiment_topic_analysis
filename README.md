@@ -59,19 +59,13 @@ Two important topic stuck out generating the most signal. These are **Technologi
 
 **Technological and Positive Development**
 
-![Best Model](fomo.png)
+![fomonews](fomonews.png)
 
 **Negative News/Opposition to Adoption**
 
-![Best Model](fud.png)
+![fud](fud.png)
 
 ## Take Aways
 
-There are a number of key take aways from the project I want hosts and guests to benefit from. 
 
-If you are a host, focus on accomodating as many guests as you can comfortably fit in your space increasing the number of beds in your space. Focus on getting good reviews, cleanliness, accuracy of description, and communication are the most important components in getting a good review. Lastly, if you can give your guests a private bathroom, that will also increase the amount you can charge for your space.
-
-If you are a guest, look for private or shared listings and be willing to venture out uptown near Harlem for better deals on spaces. If you are also willing to share a bathroom, that would also lower the price of your stay.
-
-At the end of the day, a night's stay in the city of Manhattan during the holidays is really expensive but using these strategies can help you maximize the rent you could charge or minimize your cost of staying.
 
