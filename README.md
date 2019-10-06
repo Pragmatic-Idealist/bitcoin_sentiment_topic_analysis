@@ -18,75 +18,41 @@ Bitcoin's largest gains happen in a very short amount of time. (Insert Tom Lee Q
 ## Methodology
 **1. Data Collection**
 
-I utilized an API that pulls data from various crypto news Websites. Data that I gathered included the open and close prices of Bitcoin and text data from news articles.
+I utilized an API that pulls data from various crypto news websites. The data that I gathered included the open and close prices of Bitcoin as well as the article name and text body from news articles from 2016-2018.
 
 **2. Data Cleaning and PreProcessing**
-I conducted data preprocessing for natural language processing and sentiment analysis. I lemmatized text, cleaned the data, created custom stop words and then used Tfidfvectorizer to tokenize and vectorize words placing more weight on less common words.
+I conducted data preprocessing for natural language processing and sentiment analysis. I lemmatized news article text, cleaned the text, created custom stop words, and then used Tfidfvectorizer to tokenize and vectorize words placing more weight on less common words.
 
 **3. Sentiment Analysis**
-I then utilized Texblob and Vader to generate an average composite score per document and then charted % Price Change and 7 day moving average of sentiment over time.
+I then utilized Texblob and Vader to generate sentiment scores and then averaged the two scores together for a composite score per document. I then charted Bitcoin's % Price Change and the 7 day moving average of sentiment over time.
 
 **4.Topic Modeling**
+I utilized Non-Negative Matrix Factorization (NMF) and Latent Dirichlet allocation (LDA) to generate topics from the articles. In the process, to improve the topics generated, I adjusted the stopwords and number of components in the model.
+
+**5. Final Model**
+I eventually generated 5 meaningful topics and tracked these topics and the BTC price over time to observe patterns.
+
+## Findings
 
 
-**5. Dimensionality Reduction**
+**Sentiment Analysis:**
+
+![sentiment](sentiment.png)
+
+The chart above shows the 7 day moving average of sentiment along side with percentage change in BTC price. As you can see many times negative movement in sentiment precedes negative percentage change in BTC price. The red circles in the chart highlights these instances. Although promising, as a standalone tool it may not be robust enough to be utilized as a indicator; however, when combined with fundamental and technical analysis it could be very helpful in making an short-term transcation.
+
+**Topic Modeling: **
+
+Utilizing LDA, I was able to generate 5 topics that dynamically changed over time as BTC's price changed.
 
 
-## Exploratory Data Analysis
-
-
-Removing Outliers:
-
-![Before](pricedistoutliers.png)
-
-The dataset has listings that had extremely high prices. One listing cost $4000 per night. Listing like these skew the distribution of the target making predictions less accurate.
-
-![After](priceoutliersremoved.png)
-
-After removing these outliers, the distribution is far less skewed, and the predictive power of the model increased.
-
-**Correlation Heatmap**
-
-![Important Features](Heatmap.png)
-
-Diving deeper into the dataset, I created a correlation heatmap where I found that some features have strong negative and positive correlations with price.
-
-![Important Features](importantfeatures.png)
-
-Features such as Number of Guests, Beds, and Review ratings have the strongest positive correlation with price whereas the feature Shared Baths have strongest negative correlation with price. Other important features include neighborhood and listing space type. 
-
-
-![Neighborhood](neighborhood_boxplot.png)
-
-As you can see from this box plot, the neighborhood influences price as well. Downtown listings are far more expensive than average than uptown listings.
-
-
-![Type of Listing](Listing_type_boxplot.png)
-
-From this box plot, it shows that listings that rent out the entire space are more expensive than average than private or shared rooms.
-
-![Type of Listing](shared_bath_boxplot.png)
-
-In the last boxplot, shared bathrooms listings are cheaper than average than listings with private bathrooms.
-
-![Reviews](reviews.png)
-
-Lastly, in this heatmap cutout, Reviews are shown to be also important in determining how much a host can charge for his/her space. The most important components of Overall Review are Accuracy and Cleanliness, which contribute most to the overall review than any other component.
-
-
-## Modeling
-
-The next step is to find the model that best generalizes the relationships between the features and the target, price. After splitting the data into train and test parts, I decided to use a number of linear regression models starting from a base line Linear Regression towards more advanced models such as polynomial regressions with lasso and ridge regularization. Below is a table of the performance of each model. 
-
-
-| Algorithm           | R^2                                    | Notes                         |
+| Topic Name           | Words                                   | Notes                         |
 | ----------------- | --------------------------------------- | ---------------------------- |
-| Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features |
-| Second Degree PolyReg                |  0.05                 | Overfit the test data significantly|
-| Linear Regression with Lasso | 0.71                        | Performed Reasonably well       |
-| Linear Regression  with Ridge  | 0.70| Performed well                   |
-| Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better                   |
-| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
+|             |                 |  |
+|               |                | |
+|  |                     |      |
+|   | |              |
+|  ||                 |
 
 
 ![Best Model](finalmodel.png)
