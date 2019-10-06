@@ -75,7 +75,7 @@ These charts track BTC closing prices and Topic Composition over time. I focused
 As you can see, when there is a big divergence between FOMO and FUD where FOMO hits very high levels, and where FUD is at a all time low price tends to peak. When FOMO crossed below FUD in the past it indicated a sever price drop. However, when FUD overtakes FOMO and the two diverge, it appears to indicate a price increase in the horizion.
 
 
-![fud](price_vs_topics_annotated)
+![fud](price_vs_topics_annotated.png)
 
 ## Take Aways
 
