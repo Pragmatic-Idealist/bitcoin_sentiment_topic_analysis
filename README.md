@@ -1,30 +1,35 @@
 # Bitcoin Sentiment and Topic Analysis Over Time
 
-I was always interested in Bitcoin as an investment and its underlying technology, blockchain. From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! Bitcoin is very different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
+I was always interested in Bitcoin as an investment and its underlying technology, blockchain. From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! 
+
+Bitcoin is also very different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
 
 **Bitcoin price is driven by two main factors:**
+
+Unlike other financial assets such as Stocks, Bonds, or Commodities, there are no earnings reports, revenue, cost, or any many of the other traditional financial metrics to track how well an asset is doing. Only the verifiable fixed supply/scarcity and the level of social acceptance and confidence drives price.
 
 Verifiable Fixed Supply/Scarcity -- Programmed Fixed Supplied and Blockchain technology to verify transactions.
 
 Social Acceptance/Confidence -- Measured by Sentiment and Topics over time.
 
 ## Business Problem/Motivation
-
+Bitcoin's largest gains happen in a very short amount of time. (Insert Tom Lee Quote). Knowing the sentiment and composition of topics being talked about in cryptosphere can help investors position themselves for large positive and negative price movements. **I decided to analyze the sentiment and topic composition over time to see if they can be used as reliable indicators of price movement.** 
 
 ## Methodology
 **1. Data Collection**
 
+I utilized an API that pulls data from various crypto news Websites. Data that I gathered included the open and close prices of Bitcoin and text data from news articles.
 
-**2. Data Cleaning**
+**2. Data Cleaning and PreProcessing**
+I conducted data preprocessing for natural language processing and sentiment analysis. I lemmatized text, cleaned the data, created custom stop words and then used Tfidfvectorizer to tokenize and vectorize words placing more weight on less common words.
+
+**3. Sentiment Analysis**
+I then utilized Texblob and Vader to generate an average composite score per document and then charted % Price Change and 7 day moving average of sentiment over time.
+
+**4.Topic Modeling**
 
 
-**3. Exploratory Data Analysis**
-
-
-**4. Model Training and Validation**
-
-
-**5. Testing**
+**5. Dimensionality Reduction**
 
 
 ## Exploratory Data Analysis
