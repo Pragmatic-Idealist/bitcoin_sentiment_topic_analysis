@@ -65,7 +65,20 @@ Two important topic stuck out generating the most signal. These are **Technologi
 
 ![fud](fud.png)
 
+
+**Topic Composition Overtime**
+
+These charts track BTC closing prices and Topic Composition over time. I focused on two main topics that seemed to generate some signal in regards to BTC price direction. The Green: Technological and Positive Developments etc (FOMO), The Red: Negative News/Opposition to Adoption (FUD).
+
+![fud](price_vs_topics.png)
+
+As you can see, when there is a big divergence between FOMO and FUD where FOMO hits very high levels, and where FUD is at a all time low price tends to peak. When FOMO crossed below FUD in the past it indicated a sever price drop. However, when FUD overtakes FOMO and the two diverge, it appears to indicate a price increase in the horizion.
+
+
+![fud](price_vs_topics_annotated)
+
 ## Take Aways
 
+In this project, I was able to distinctly find patterns between sentiment, topics, and price. The models and analysis I generated showed that sentiment can be used as a tool to predict short-term BTC price movements and the proportion of topics from news articles text data can indicate the overall climate of the market and be used to predict reversals and longer term price movements. This confirms my original hypothesis that Bitcoin price direction is in part driven by sentiment and the 'conversation' the masses and media is having surronding this volatile investment. I hope to one day develop this into a full fledged trading algorithm along with technical analysis. See you on the moon!
 
 
