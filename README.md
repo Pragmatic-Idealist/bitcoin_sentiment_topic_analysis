@@ -68,7 +68,7 @@ Two important topic stuck out generating the most signal. These are **Technologi
 
 **Topic Composition Overtime**
 
-These charts track BTC closing prices and Topic Composition over time. I focused on two main topics that seemed to generate some signal in regards to BTC price direction. The Green: Technological and Positive Developments etc (FOMO), The Red: Negative News/Opposition to Adoption (FUD).
+These charts track BTC closing prices and Topic Composition over time. I focused on two main topics that seemed to generate some signal in regards to BTC price direction. **The Green: Technological and Positive Developments etc (FOMO), The Red: Negative News/Opposition to Adoption (FUD), Orange: BTC Closing Price**.
 
 ![fud](price_vs_topics.png)
 
