@@ -2,11 +2,11 @@
 
 I was always interested in Bitcoin as an investment and its underlying technology, blockchain. From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! It only made sense for me to try to predict Bitcoin price direction using machine learning just as its already being done with stocks and other investments.
 
-
-**Bitcoin price is driven by two main factors:**
 However, Bitcoin is different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
 
 Unlike other financial assets such as Stocks, Bonds, or Commodities, there are no earnings reports, revenue, cost, or any many of the other traditional financial metrics to track how well an asset is doing. Only the verifiable fixed supply/scarcity and the level of social acceptance and confidence drives price.
+
+**Bitcoin price is driven by two main factors:**
 
 **Verifiable Fixed Supply/Scarcity -- Programmed Fixed Supplied and Blockchain technology to verify transactions.**
 
