@@ -23,15 +23,19 @@ Bitcoin's largest gains happen in a very short amount of time. Bitcoin's greates
 I utilized an API that pulls data from various crypto news websites. The data that I gathered included the open and close prices of Bitcoin as well as the article name and text body from news articles from 2016-2018.
 
 **2. Data Cleaning and PreProcessing**
+
 I conducted data preprocessing for natural language processing and sentiment analysis. I lemmatized news article text, cleaned the text, created custom stop words, and then used Tfidfvectorizer to tokenize and vectorize words placing more weight on less common words.
 
 **3. Sentiment Analysis**
+
 I then utilized Texblob and Vader to generate sentiment scores and then averaged the two scores together for a composite score per document. I then charted Bitcoin's % Price Change and the 7 day moving average of sentiment over time. I utilized the 7 day moving average of sentiment because I wanted to capture the average sentiment of the preceding week and its affect on price.
 
 **4.Topic Modeling**
+
 I utilized Non-Negative Matrix Factorization (NMF) and Latent Dirichlet allocation (LDA) to generate topics from the articles. In the process, to improve the topics generated, I adjusted the stopwords and number of components in the model.
 
 **5. Final Model**
+
 I eventually generated 5 meaningful topics and tracked these topics and the BTC price over time to observe patterns.
 
 ## Findings
