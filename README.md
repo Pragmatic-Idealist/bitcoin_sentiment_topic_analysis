@@ -1,6 +1,6 @@
 # Bitcoin Sentiment and Topic Analysis Over Time
 
-I was always interested in Bitcoin as an investment and its underlying technology, blockchain. From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! It only made sense for me to try to predict Bitcoin price direction using machine learning just as its already being done with stocks and other investments.
+From an investment perspective, Bitcoin is one of history's best performing financial assets. If you bought just $100 in Bitcoin in early 2011, you would be 2 million dollars richer when bitcoin was at its peak! It only made sense for me to try to predict Bitcoin price direction using machine learning just as its already being done with stocks and other investments.
 
 However, Bitcoin is different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
 
