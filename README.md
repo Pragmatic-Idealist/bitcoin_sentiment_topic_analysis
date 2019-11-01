@@ -28,7 +28,7 @@ I conducted data preprocessing for natural language processing and sentiment ana
 
 **3. Sentiment Analysis**
 
-I then utilized Texblob and Vader to generate sentiment scores and then averaged the two scores together for a composite score per document. I then charted Bitcoin's % Price Change and the 7 day moving average of sentiment over time. I utilized the 7 day moving average of sentiment because I wanted to capture the average sentiment of the preceding week and its affect on price.
+I then utilized Textblob and Vader to generate sentiment scores and then averaged the two scores together for a composite score per document. I then charted Bitcoin's % Price Change and the 7 day moving average of sentiment over time. I utilized the 7 day moving average of sentiment because I wanted to capture the average sentiment of the preceding week and its affect on price.
 
 **4.Topic Modeling**
 
