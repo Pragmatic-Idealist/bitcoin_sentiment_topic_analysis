@@ -4,7 +4,7 @@ From an investment perspective, Bitcoin is one of history's best performing fina
 
 However, Bitcoin is different from typical investments such as stocks, bonds, and commodities and many of these differences contribute to how people value it and why it has so much volatility.
 
-Unlike other financial assets such as Stocks, Bonds, or Commodities, there are no earnings reports, revenue, cost, or any many of the other traditional financial metrics to track how well an asset is doing. Only the verifiable fixed supply/scarcity and the level of social acceptance and confidence drives price.
+Unlike other financial assets such as Stocks, Bonds, or Commodities, there are no earnings reports, revenue, cost, or any many of the other traditional financial metrics to track how well an asset is doing. Only the factors, the verifiable fixed supply/scarcity and the level of social acceptance and confidence in the digital asset drives price.
 
 **Bitcoin price is driven by two main factors:**
 
@@ -36,7 +36,7 @@ I utilized Non-Negative Matrix Factorization (NMF) and Latent Dirichlet allocati
 
 **5. Final Model**
 
-I eventually generated 5 meaningful topics and tracked these topics and the BTC price over time to observe patterns.
+I generated 5 meaningful topics and tracked these topics and the BTC price over time to observe patterns.
 
 ## Findings
 
@@ -45,11 +45,11 @@ I eventually generated 5 meaningful topics and tracked these topics and the BTC 
 
 ![sentiment](sentiment.png)
 
-The chart above shows the 7 day moving average of sentiment along side with percentage change in BTC price. As you can see many times negative movement in sentiment precedes negative percentage change in BTC price. The red circles in the chart highlights these instances. Although promising, as a standalone tool it may not be robust enough to be utilized as a indicator; however, when combined with fundamental and technical analysis it could be very helpful in making an short-term transcation.
+The chart above shows the 7 day moving average of sentiment along side with percentage change in BTC price. As you can see, many times negative movement in sentiment precedes negative percentage change in BTC price. The red circles in the chart highlights these instances. Although promising, as a standalone tool it may not be robust enough to be utilized as a indicator; however, when combined with fundamental and technical analysis it could be very helpful in making an short-term transcation.
 
 **Topic Modeling:**
 
-Utilizing LDA, I was able to generate 5 meaning topics that dynamically on their prevalence changed over time as BTC's price changed.
+Utilizing LDA, I was able to generate 5 meaning topics that collectively change in composition overtime alongside BTC Price.
 
 
 | Topic Name           | Words                                   | Notes                         |
@@ -85,6 +85,6 @@ As you can see, when there is a big divergence between FOMO and FUD where FOMO h
 
 ## Take Aways
 
-In this project, I was able to distinctly find patterns between sentiment, topics, and price. The models and analysis I generated showed that sentiment can be used as a tool to predict short-term BTC price movements and the proportion of topics from news articles text data can indicate the overall climate of the market and be used to predict reversals and longer term price movements. This confirms my original hypothesis that Bitcoin price direction is in part driven by sentiment and the 'conversation' the masses and media is having surronding this volatile investment. I hope to one day develop this into a full fledged trading algorithm along with technical analysis. See you on the moon!
+In this project, I was able to distinctly find patterns between sentiment, topics, and price. The models and analysis I generated showed that sentiment can be used as a tool to predict short-term BTC price movements and the composition of topics from news articles/text data can indicate the overall climate of the market and be used to predict reversals and longer term price movements. This confirms my original hypothesis that Bitcoin price direction is in part driven by sentiment and the 'conversation' the masses and media is having. I hope to one day develop this into a full fledged trading algorithm along with technical analysis. See you on the moon!
 
 
