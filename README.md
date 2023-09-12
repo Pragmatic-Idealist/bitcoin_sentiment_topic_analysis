@@ -58,7 +58,7 @@ Utilizing LDA, I was able to generate 5 meaning topics that collectively change 
 | Financial News and Regulation| bank, currency, financial, central, digital, regulation, government| Regulatory news regarding current financial systems and government guidance |
 | Market Analysis| high, btc, week, drop, low, day, time, gain, rise, bull| Market Analysis and price movement discussion|
 | Altcoins| ripple, xrp, litcoin, eos, tron, bch, stellar | Altcoin names |
-| National Bans, Scams, 51% Attacks (FUD)| mining, ban, india, court, chinese, scam, bitmain, attack| Words associated with negative news impacting BTC and crypto's legitamacy|
+| National Bans, Scams, 51% Attacks (FUD)| mining, ban, india, court, china, scam, bitmain, attack| Words associated with negative news impacting BTC and crypto's legitamacy|
 
 Two important topic stuck out generating the most signal. These are **Technological and Positive Development** and **Negative News/Opposition to Adoption**. These two topics positively and negatively contribute to the legitamacy of Bitcoin and seem to give some insight in price direction and reversals based on their relative compositions of all news being reported.
 
