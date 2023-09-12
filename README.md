@@ -10,7 +10,7 @@ Unlike other financial assets such as Stocks, Bonds, or Commodities, there are n
 
 **Verifiable Fixed Supply/Scarcity** -- Programmed Fixed Supplied and Blockchain technology to verify transactions.
 
-**Social Acceptance/Confidence** -- Measured by Sentiment and Topics over time.
+**Social Acceptance/Demand** -- Measured by Sentiment and Topics over time.
 
 ## Business Problem/Motivation
 Bitcoin's largest gains happen in a very short amount of time. Bitcoin's greatest gains occured in a time window of just a few weeks. Knowing the sentiment and composition of topics being talked about in cryptosphere can help investors position themselves for large positive and negative price movements. 
